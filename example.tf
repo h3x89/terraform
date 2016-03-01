@@ -4,7 +4,7 @@ resource "virtualbox_vm" "node" {
 
     image = "/home/h3x/Downloads/ubuntu-15.04.tar.xz"
     cpus = 2
-    memory = "512mib"
+    memory = "128mib"
 
     network_adapter {
         type = "nat"
